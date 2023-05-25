@@ -40,11 +40,17 @@
 }
 
 .about-corp,
-.recent-bounties-title,
-.recent-bounties {
+.recent-bounties-title{
 
     text-align: center;
     color: #7d7d7d;
+    margin-bottom: 32px;
+
+}
+
+
+.recent-bounties {
+
     margin-bottom: 32px;
 
 }
@@ -79,5 +85,47 @@
 
     background-color: #cfbc98;
     box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, .5);
+
+}
+
+.bounty-box {
+
+    padding: 16px 0;
+    border-bottom: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.bounty-title {
+
+    margin-bottom: 8px;
+
+}
+
+.bounty-location, .bounty-prize {
+
+    font-weight: normal;
+    margin-bottom: 4px;
+
+}
+
+.btn-select-bounty {
+
+    margin-bottom: 32px;
+    padding: 8px 12px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border: 1px #005bca solid;
+    border-radius: 6px;
+    transition: all .2s ease-in;
+
+}
+
+.btn-select-bounty:hover {
+
+    background-color: #005bca;
+    color: whitesmoke;
 
 }

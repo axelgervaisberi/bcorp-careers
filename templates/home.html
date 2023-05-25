@@ -22,7 +22,20 @@
                 aperiam?
             </p>
             <h2 class="recent-bounties-title">Bounties récentes</h2>
-            <p class="recent-bounties">Les primes seront ici</p>
+            <div class="recent-bounties">
+                {% for bounty in bounties %}
+                <div class="bounty-box">
+                    <div>
+                        <h4 class="bounty-title">{{bounty['objective']}}</h4>    
+                        <h5 class="bounty-location"><b>Location: </b>{{bounty['location']}}</h5>
+                        <h5 class="bounty-prize"><b>Bounty: </b>{{bounty['amount']}}</h5>
+                    </div>
+                    <div>
+                        <button class="btn-select-bounty">Select</button>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
             <div class="btn-contact-us-box">
                 <button class="btn-contact-us">Nous contacter</button>
             </div>
