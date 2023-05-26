@@ -13,6 +13,79 @@
 
 }
 
+nav {
+
+    position: sticky;
+    top: 0;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005bca;
+    color: white;
+    border-radius: 0 0 12px 12px;
+
+}
+
+footer {
+
+    position: relative;
+    bottom: 0;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #005bca;
+    color: white;
+    border-radius: 12px 12px 0 0;
+
+}
+
+footer p {
+
+    text-align: center;
+
+}
+
+.logo-box {
+
+    width: 90px;
+    height: 90px;
+    background-color: whitesmoke;
+    border: 2px wheat solid;
+    color: #005bca;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-box p {
+
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.logo-box p span {
+
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.menu-link {
+
+    text-decoration: none;
+    margin-left: 16px;
+    color: #005bca;
+    background-color: whitesmoke;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+
+}
+
 .main-logo {
 
     font-size: 48px;
